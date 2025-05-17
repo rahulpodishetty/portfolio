@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rahul Podishetty | App Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fafc;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e88e5;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #1e88e5;
+      margin-bottom: 10px;
+    }
+    .project-card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    .skills, .certs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+    footer {
+      background: #1e88e5;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    a {
+      color: #1e88e5;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Rahul Podishetty</h1>
+  <p>App Developer | Java | Python | Firebase | SQL</p>
+  <p>
+    <a href="mailto:rahull543210@gmail.com" style="color: white;">rahull543210@gmail.com</a> |
+    <a href="https://www.linkedin.com/in/rahulpodishetty" target="_blank" style="color: white;">LinkedIn</a>
+  </p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#certifications">Certifications</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I’m a B.Tech CSE graduate passionate about Android and app development. I create responsive, scalable applications using Java and Firebase. With a strong foundation in machine learning and a proactive approach to learning, I'm looking for an entry-level role to grow and contribute to real-world software development.
+  </p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Electricity Theft Detection in Smart Grids</h3>
+    <p><strong>Tech Stack:</strong> Python, CNN, Random Forest</p>
+    <p>Designed a hybrid model for detecting electricity theft using smart meter data. Integrated CNN for feature extraction and Random Forest for classification, improving detection accuracy and grid security.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Sentiment Analysis Using Naive Bayes</h3>
+    <p><strong>Tech Stack:</strong> Python, NLP, Naive Bayes</p>
+    <p>Built a text classification system that analyzes sentiment using the Naive Bayes algorithm. Handled preprocessing, evaluation (accuracy, F1-score), and implemented features like word frequency and polarity analysis.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div>Java</div>
+    <div>SQL</div>
+    <div>GitHub</div>
+    <div>Visual Studio Code</div>
+    <div>Firebase</div>
+    <div>Python (for ML)</div>
+    <div>Git</div>
+    <div>REST APIs</div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <p><strong>B.Tech in Computer Science & Engineering</strong><br/>
+  Vignana Bharathi Institute of Technology, Hyderabad<br/>
+  Aug 2020 – May 2024<br/>
+  CGPA: 6.73</p>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="certs">
+    <div>AI-ML Virtual Internship – AICTE</div>
+    <div>Database Foundations – Oracle Academy</div>
+    <div>Java Programming – Infosys Springboard</div>
+    <div>AWS Cloud Foundations – AWS Academy</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2024 Rahul Podishetty | Designed with 💙</p>
+</footer>
+
+</body>
+</html>
+
